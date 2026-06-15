@@ -59,5 +59,17 @@ When drawing the bending moment diagram, the sign may need to be converted depen
 
 The first example is a continuous beam:
 
-```text
+
 A ───── B ───── C
+
+##  Example 2: UCLA Royce Hall Simplified Frame
+
+The second example is a simplified rigid-frame model inspired by UCLA Royce Hall:
+
+        P          P          P
+        ↓          ↓          ↓
+A'──────B'────────C'────────D'
+│       │         │         │
+│       │         │         │
+A       B         C         D
+fixed   fixed     fixed     fixed
